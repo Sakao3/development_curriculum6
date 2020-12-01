@@ -19,6 +19,7 @@ class CalendarsController < ApplicationController
   end
 
   def get_week
+    # Issue2 小文字のスネークケースのメソッド名に変更 indexの中も変更
     wdays = ['(日)','(月)','(火)','(水)','(木)','(金)','(土)']
 
     # Dateオブジェクトは、日付を保持しています。下記のように`.today.day`とすると、今日の日付を取得できます。
